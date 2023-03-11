@@ -1,0 +1,142 @@
+
+
+.body{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5em;
+}
+li, p{
+    color: hsl(0, 0%, 0%) ;
+    opacity: 75%;
+}
+.avatar img{
+    height: 43px;
+    width: 43px;
+}
+.hd-left ul li{
+    display: inline;
+    /* margin-right: 2.5em; */
+    margin-right: 1.5em;
+}
+
+.hd-right ul li{
+    display: inline;
+    margin-right: 2.5em;
+    /* align-items: center; */
+}
+
+.hold-1{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+}
+.grid-left .main-img img{
+    width:400px;
+    border-radius: 10px;
+}
+
+.grid-left .sm-im{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 25px; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5em;
+}
+.grid-left .sm-im img{
+    width: 80px;
+    border-radius: 10px;
+}
+
+.grid-hold{
+    margin-top: 5em;
+    display: grid;
+    /* justify-content: space-around;
+    column-gap: 00px; */
+    grid-template-columns: 1fr 1fr;
+}
+.grid-left{
+    margin: 0 auto;
+}
+
+
+.grid-right .org{
+    color:hsl(26, 100%, 55%);
+    font-weight: bold;
+}
+.grid-right{
+    width: 400px;
+    margin: auto 0;    
+}
+.price{
+    display: flex;
+    /* margin-bottom: -.7em; */
+    margin: -.5em 0 -.7em;
+}
+
+
+
+.strike{
+    text-decoration: line-through;
+    /* margin-top: -50px; */
+}
+.dsn{
+    margin: auto .5em ;
+}
+
+.dsn button{
+    font-weight: bold;
+    color: hsl(26, 100%, 55%);
+    background-color: hsl(25, 100%, 94%);
+    border-radius: 4px;
+    border: none;
+}
+.cart button{
+    display: flex;
+    column-gap: .5em;
+    padding: 10px 50px;
+    border-radius: 5px;
+    background: hsl(26, 100%, 55%);
+    border: none;
+} 
+.cart button span{
+    /* align-items: center; */
+    margin: auto 0;
+    color:white;
+    font-weight:bold;
+}
+.lop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 25px;
+    margin: 1.5em 0;
+}
+.increase{
+    display: block ;
+    width: 10em;
+    background-color: antiquewhite;
+    margin: auto 0;
+    text-align: center;
+    padding:10px;
+    /* height: 1em; */
+
+}
+.num-btn{
+    width: 5em;
+    background-color: transparent;
+    border: transparent;
+}
+
+@media (max-device-width: 850px){
+    .grid-hold{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .grid-right{
+        margin: 5em auto;
+    }
+}
